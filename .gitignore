@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Runtime data / local database
+data/uploads/
+data/outputs/
+data/reports/
+data/backups/
+data/knowledge_index/
+data/splits/
+data/*.db
+data/*.db-*
+
+# Large model files (download instructions in models/README.md)
+models/*.gguf
+models/bge-small-zh-v1.5/
+yolo*.pt
+
+# Training artifacts (results.csv and curve images are committed)
+runs/**/weights/
+runs/**/train_batch*.jpg
+runs/**/val_batch*.jpg
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/

@@ -1,0 +1,24 @@
+# Core Python dependencies (Python 3.12, CUDA 12.1)
+# Install: pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+# CUDA build: install torch 2.5.1+cu121 / torchvision 0.20.1+cu121 from pytorch.org
+# (already present in the reproduction environment)
+torch>=2.5.1
+torchvision>=0.20.1
+ultralytics==8.4.57
+numpy>=1.26
+pandas>=2.2
+plotly>=5.20
+opencv-python>=4.9
+Pillow>=10.0
+PyYAML>=6.0
+openpyxl>=3.1
+dash==4.5.0
+dash-bootstrap-components==2.0.4
+jieba==0.42.1
+rank-bm25==0.2.2
+transformers==4.49.0
+scikit-learn>=1.5
+llama-cpp-python==0.3.36
+imageio-ffmpeg>=0.5
+matplotlib>=3.8
+requests>=2.31

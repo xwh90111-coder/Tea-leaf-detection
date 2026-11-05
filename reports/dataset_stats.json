@@ -1,0 +1,121 @@
+{
+  "dataset_root": "../datasets/tea-leaf-disease",
+  "classes": [
+    "algal-leaf-spot",
+    "brown-blight",
+    "grey-blight"
+  ],
+  "total_images": 2723,
+  "split_totals": {
+    "train": 2178,
+    "valid": 272,
+    "test": 273
+  },
+  "class_totals": {
+    "algal-leaf-spot": 2667,
+    "brown-blight": 2112,
+    "grey-blight": 2178
+  },
+  "duplicates_across_splits": [],
+  "splits": {
+    "train": {
+      "split": "train",
+      "images": 2178,
+      "label_files": 2178,
+      "missing_labels": 0,
+      "bad_labels": 0,
+      "bad_label_examples": [],
+      "instances": {
+        "algal-leaf-spot": 2126,
+        "brown-blight": 1682,
+        "grey-blight": 1760
+      },
+      "images_with_class": {
+        "algal-leaf-spot": 1332,
+        "brown-blight": 1191,
+        "grey-blight": 1234
+      },
+      "boxes_per_image_mean": 2.56,
+      "boxes_per_image_max": 8,
+      "empty_images": 1,
+      "image_sizes": {
+        "640x640": 2178
+      },
+      "box_width_mean": 0.2534,
+      "box_height_mean": 0.2458,
+      "box_area_mean": 0.07565,
+      "ratio": 0.7999,
+      "class_ratio": {
+        "algal-leaf-spot": 0.7972,
+        "brown-blight": 0.7964,
+        "grey-blight": 0.8081
+      }
+    },
+    "valid": {
+      "split": "valid",
+      "images": 272,
+      "label_files": 272,
+      "missing_labels": 0,
+      "bad_labels": 0,
+      "bad_label_examples": [],
+      "instances": {
+        "algal-leaf-spot": 275,
+        "brown-blight": 219,
+        "grey-blight": 217
+      },
+      "images_with_class": {
+        "algal-leaf-spot": 170,
+        "brown-blight": 157,
+        "grey-blight": 160
+      },
+      "boxes_per_image_mean": 2.61,
+      "boxes_per_image_max": 7,
+      "empty_images": 0,
+      "image_sizes": {
+        "640x640": 272
+      },
+      "box_width_mean": 0.2447,
+      "box_height_mean": 0.2383,
+      "box_area_mean": 0.07201,
+      "ratio": 0.0999,
+      "class_ratio": {
+        "algal-leaf-spot": 0.1031,
+        "brown-blight": 0.1037,
+        "grey-blight": 0.0996
+      }
+    },
+    "test": {
+      "split": "test",
+      "images": 273,
+      "label_files": 273,
+      "missing_labels": 0,
+      "bad_labels": 0,
+      "bad_label_examples": [],
+      "instances": {
+        "algal-leaf-spot": 266,
+        "brown-blight": 211,
+        "grey-blight": 201
+      },
+      "images_with_class": {
+        "algal-leaf-spot": 170,
+        "brown-blight": 155,
+        "grey-blight": 148
+      },
+      "boxes_per_image_mean": 2.48,
+      "boxes_per_image_max": 7,
+      "empty_images": 0,
+      "image_sizes": {
+        "640x640": 273
+      },
+      "box_width_mean": 0.2531,
+      "box_height_mean": 0.2451,
+      "box_area_mean": 0.0762,
+      "ratio": 0.1003,
+      "class_ratio": {
+        "algal-leaf-spot": 0.0997,
+        "brown-blight": 0.0999,
+        "grey-blight": 0.0923
+      }
+    }
+  }
+}

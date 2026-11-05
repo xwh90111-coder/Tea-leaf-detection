@@ -1,0 +1,12 @@
+# Tea leaf disease dataset configuration (portable template).
+# Edit `path` to the dataset root on your machine, or place the dataset at
+# ../datasets/tea-leaf-disease relative to the repository root.
+path: ../datasets/tea-leaf-disease
+train: train/images
+val: valid/images
+test: test/images
+nc: 3
+names:
+  0: algal-leaf-spot
+  1: brown-blight
+  2: grey-blight

@@ -1,0 +1,25 @@
+{
+  "weights": "models\\best.pt",
+  "parameters": 2557313,
+  "gflops": 6.322,
+  "model_file_mb": 5.358,
+  "imgsz": 640,
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "runs": 200,
+  "preprocess_ms": 3.0845,
+  "inference_ms": 9.952,
+  "postprocess_ms": 1.0965,
+  "end2end_ms": 14.133,
+  "fps_inference_only": 100.48,
+  "fps_end2end": 70.76,
+  "wall_ms_mean": 14.301,
+  "fps_wall": 69.93,
+  "p95_inference_ms": 11.5512,
+  "p95_end2end_ms": 15.7686,
+  "batching": {
+    "batch4_ms": 11.436,
+    "batch4_fps_per_image": 349.77,
+    "batch16_ms": 50.945,
+    "batch16_fps_per_image": 314.07
+  }
+}
